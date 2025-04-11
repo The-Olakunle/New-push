@@ -27,11 +27,21 @@
       border: 1px solid #ccc;
     }
     button {
-      background-color: #145214;
-      color: white;
-      cursor: pointer;
-      font-weight: bold;
-    }
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #145214;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    display: block; /* Make button block-level */
+    margin-left: auto;  /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    max-width: 200px;   /* Optional: adjust for a more compact button */
+}
     .result {
       margin-top: 2rem;
       background-color: #fff;
